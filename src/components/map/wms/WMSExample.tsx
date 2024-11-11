@@ -2,6 +2,7 @@ import React, { useEffect } from "react";
 import { Map, View } from "ol";
 import TileLayer from "ol/layer/Tile";
 import TileWMS from "ol/source/TileWMS";
+import ol_source_WTMS from "ol/source/WMTS";
 import { fromLonLat } from "ol/proj";
 import "ol/ol.css";
 import { OSM } from "ol/source";
